@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF4E8;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction:column;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+
+nav{
+    padding:20px;
+    width:100%;
+    height:115px;
+    display:flex;
+    background-color: #FFF4E8;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+nav>ul{
+    padding-left:70px;
+    display: flex;
+    gap: 20px;
+    font-family: "raleway", sans-serif;
+    font-size: 25px;
+
+}
+
+nav a{
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+    color: #6D6E6E;
+}
+
+nav>ul a:hover {
+    border-radius: 10px;
+    background-color: rgb(91, 179, 205);
+
+
+}
+
+nav>ul a:active {
+    border-radius: 10px;
+    background-color: rgba(91, 179, 205, 40%);
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.top_corner_logo {
+    height: 85px;
+}
+
+
+.container_banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -10;
+}
+
+.banner_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.banner_caption {
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    font-family: "raleway", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.30);
+
+}
+
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE6CC;
+    border-radius: 10px;
+    width: 85%;
+    align-self: center;
+}
+
+.footer_text {
+    gap: 50px;
+    padding:20px;
+    width:100%;
+    height:115px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    color: #6D6E6E;
+}
+
+.footer_subscript {
+    gap: 25px;
+    padding:20px;
+    width:100%;
+    height:115px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "raleway", sans-serif;
+    font-size: 16px;
+    color: #6D6E6E;
+}
+
+.footer_subscript_image {
+    background-color: white;
+    height: 75px;
+    border-radius: 360px;
+
+}
