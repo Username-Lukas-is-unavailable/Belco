@@ -217,7 +217,9 @@ main img {
 .image_right {
     /*float: right;*/
     margin-right:50px;
-    width: 90%;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
 }
 
 .icon {
@@ -294,7 +296,9 @@ main img {
 
 .image_left {
     margin-left:70px;
-    width: 90%;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
 
 }
 
@@ -325,6 +329,10 @@ main img {
     width: auto;
     justify-self: center;
 
+}
+
+#intro_header_partner {
+    font-size: 25px;
 }
 
 .spacer {
@@ -474,4 +482,12 @@ main img {
     height: 75px;
     border-radius: 360px;
 
+}
+
+.bg_shape_blue_l {
+    position: absolute;
+    top: 70%;
+    z-index: -3;
+    right: 60%;
+    max-height:1050px;
 }
