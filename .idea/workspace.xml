@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3474f15c-661f-451a-9c68-bec803671a88" name="Changes" comment="28 May - Final Touches&#10;&#10;- Final Touches&#10;&#10;&#10;Due to time constraints some things are unfinished:&#10;- Alignment (padding/margins) are sometimes inconsistent across the site. &#10;- List of Partners and List of Schools are incomplete.">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partnerinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/partnerinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,8 @@
       <updated>1746605588864</updated>
       <workItem from="1746605590001" duration="24239000" />
       <workItem from="1747903176385" duration="67712000" />
+      <workItem from="1748419241229" duration="3972000" />
+      <workItem from="1748617713070" duration="4336000" />
     </task>
     <task id="LOCAL-00001" summary="First draft of the project">
       <option name="closed" value="true" />
